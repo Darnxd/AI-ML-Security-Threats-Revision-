@@ -34,4 +34,13 @@ Pre-training ke baad ek aur step hota hai jise RLHF (Reinforcement Learning from
 
 Isme real humans model ke answers ko check karte hain.
 
+
+| Term                        | What it is?                                      |
+|-----------------------------|--------------------------------------------------|
+| Artificial Intelligence (AI)| Pura field (Machines acting like humans).        |
+| Machine Learning (ML)       | AI ka subfield (Data se patterns seekhna).       |
+| Deep Learning (DL)          | ML ka specialized branch (Using Neural Networks, scalable ML). |
+| Large Language Models (LLMs)| DL models jo Transformers use karte hain text generate karne ke liye. |
+
+
 Agar model unhelpful ya galat jawab deta hai, toh usey flag kiya jata hai aur parameters ko sudhara jata hai. Isse model safe aur user-friendly banta hai.
