@@ -59,3 +59,17 @@ toh hum use "Deep Learning" kehte hain.
 # Summary: Cyber security mein AI isliye zaroori hai kyunki attacks itni tezi se badh rahe hain ki insaan 
   har cheez manually handle nahi kar sakta. AI/ML algorithms naye threats ko real-time mein pehchan kar unhe 
   block kar sakte hain.
+
+# Answer the questions below
+
+1. What category of machine learning combines both labelled and unlabelled data?
+Ans - semi-supervised learning
+
+2. What is the first layer in a neural network that handles incoming raw data?
+Ans - input layer
+
+3. Which learning method does not require human-labeled data and can extract features from raw, unstructured input?
+Ans - deep learning
+
+4. What are the weighted connections between nodes in a neural network meant to simulate in the human brain?
+Ans - synapses
