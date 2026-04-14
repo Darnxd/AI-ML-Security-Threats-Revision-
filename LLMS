@@ -51,3 +51,7 @@ Answer the questions below
 Ans - large language models
 
 2. What is the first training stage where an LLM processes massive amounts of data?
+Ans - pre-training
+
+3. What type of neural network introduced by Google in 2017 powers modern LLMs?
+Ans- transformer
