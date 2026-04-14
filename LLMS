@@ -1,0 +1,37 @@
+# 1. LLMs Kya Hain? (The Next Word Predictors)
+Large Language Models (LLMs) jaise ChatGPT, LLaMA, aur DeepSeek, Deep Learning par based models hain. Inka main kaam hai text ko process karna aur generate karna.
+
+Kaise kaam karte hain? Ye basically agle word (sequence) ki prediction karte hain.
+
+Example: Agar aap ek sentence likhte ho aur aakhri word chhod dete ho, toh LLM predict karega ki wahan sabse zyada suit hone wala word kaunsa hai. 
+Jab aap chatbot se baat karte ho, toh background mein yahi prediction bahut fast speed par ho rahi hoti hai.
+
+#2. Training Phase: Pre-training aur Backpropagation
+
+LLMs ko raaton-raat nahi banaya jata. Inhe bahut mehnat se train kiya jata hai:
+
+Pre-training: Inhe itna saara text data padhaya jata hai ki ek insaan ko usey padhne mein 2,600 saal lag jayenge (non-stop!).
+
+Parameters: Inme billions of parameters hote hain jo "puzzle pieces" ki tarah kaam karte hain. Ye parameters help karte hain human-like language samajhne mein.
+
+Backpropagation: Training ke waqt, model shuru mein random words guess karta hai. Phir us guess ko correct word se compare kiya jata hai. 
+Ek algorithm jise Backpropagation kehte hain, wo model ke parameters ko fine-tune (adjust) karta hai taaki agli baar prediction sahi ho.
+
+#3. Technology ka Powerhouse: GPUs aur Transformers
+
+Itna bada kaam karne ke liye do cheezein bahut zaroori thi:
+
+Hardware (GPUs): Graphics Processing Units ki wajah se bahut saara data ek saath (parallel) process ho pata hai.
+
+Transformer Neural Networks: 2017 mein Google ne ek paper nikala tha—"Attention is All You Need". Isne sab badal diya.
+
+Transformers ka fayda: Pehle models ek-ek word karke padhte the. Transformers poora sentence ek saath padhte hain aur "Attention" dete hain important words par.
+Example: "The bank approved the loan because it was financially stable." Transformer samajh jayega ki yahan "it" ka matlab "bank" hai, "loan" nahi.
+
+#4. RLHF: Adding the Human Touch
+
+Pre-training ke baad ek aur step hota hai jise RLHF (Reinforcement Learning from Human Feedback) kehte hain.
+
+Isme real humans model ke answers ko check karte hain.
+
+Agar model unhelpful ya galat jawab deta hai, toh usey flag kiya jata hai aur parameters ko sudhara jata hai. Isse model safe aur user-friendly banta hai.
